@@ -1,0 +1,16 @@
+google-auth
+google-auth-oauthlib
+google-api-python-client
+tika
+PyPDF2
+install-jdk
+
+
+# Der skal installeres java 8 for at kunne køre tika:
+
+#For Mac:
+#brew tap adoptopenjdk/openjdk
+#brew install --cask adoptopenjdk8
+
+# For ubuntu:
+#sudo apt install openjdk-8-jdk
