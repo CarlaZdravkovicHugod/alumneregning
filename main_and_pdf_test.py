@@ -14,9 +14,9 @@ from os.path import basename
 # Remember to install "PyPDF2"
 from PyPDF2 import PdfReader, PdfWriter
 
-from read_contacts import get_contacts
-from read_contacts import read_template
-from read_contacts import get_filenames
+from alumneregning.read_contacts import get_contacts
+from alumneregning.read_contacts import read_template
+from alumneregning.read_contacts import get_filenames
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
